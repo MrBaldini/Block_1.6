@@ -5,7 +5,11 @@
   *, *:after, *:before {
     box-sizing: border-box; }
   .body {
-    font-family: 'TT Lakes Medium';
+    font-family: "TT Lakes Medium";
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #1B1C21;
     padding: 0px;
     margin: 0px;
     display: flex;
@@ -59,7 +63,7 @@
     line-height: 24px;
     letter-spacing: -0.2px;
     white-space: nowrap;
-    font-family: 'TT Lakes Demi'; }
+    font-family: "TT Lakes Demi"; }
   .header__logo-status {
     margin-right: 0px; }
   .main__div {
@@ -119,16 +123,11 @@
     display: flex;
     flex-direction: column; }
   .p {
-    font-size: 14px;
-    line-height: 18px;
     width: 288px;
-    letter-spacing: 0.2px;
     margin: 0px;
     margin-top: 24px;
     margin-left: 16px;
-    margin-right: 16px;
-    font-family: 'TT Lakes Medium';
-    color: #1B1C21; }
+    margin-right: 16px; }
   .p-rm__p-half {
     display: none; }
   .p-rm__p-hidden {
@@ -168,7 +167,7 @@
     display: inline;
     margin: 0px;
     margin-left: 14px;
-    font-family: 'TT Lakes Demi';
+    font-family: "TT Lakes Demi";
     white-space: nowrap; }
   .hide-text__h2 {
     margin-left: 10px; }
@@ -319,14 +318,11 @@
 
 @media (min-width: 320px) {
   .body__modal-menu {
-    margin: 0;
-    padding: 0;
     display: flex;
     flex-direction: column;
     width: 320px;
     height: 676px;
     box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2);
-    font-family: TT Lakes Medium;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.2px;
@@ -541,7 +537,6 @@
     background-image: linear-gradient(to right, #F8F8F8, #FFFFFF);
     color: #7E7E82; }
   .text {
-    font-family: TT Lakes Medium;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.2px;
@@ -629,6 +624,8 @@
     margin-top: 8px;
     height: auto;
     flex-wrap: wrap; }
+  .div-brands__details {
+    font-family: "TT Lakes Demi"; }
   .details__hidden-brands-768px {
     display: flex;
     flex-wrap: wrap; }
@@ -658,7 +655,10 @@
   .details summary::before {
     content: 'Показать все';
     white-space: nowrap;
-    margin-left: 16px; }
+    margin-left: 16px;
+    font-family: "TT Lakes Demi";
+    font-size: 16px;
+    letter-spacing: -0.2px; }
   .details[open] summary::before {
     content: 'Скрыть'; }
   summary::marker {
@@ -747,7 +747,6 @@
   .main__type-of-devices {
     display: flex;
     flex-direction: column;
-    font-family: TT Lakes Medium;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.2px;
@@ -805,7 +804,6 @@
     margin-top: 64px;
     margin-bottom: 16px; }
   .main__service-price {
-    font-family: TT Lakes Medium;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.2px;
@@ -905,8 +903,7 @@
     letter-spacing: 0.2px;
     margin: 0;
     margin-left: 16px;
-    margin-right: 16px;
-    color: #1B1C21; }
+    margin-right: 16px; }
   .service-price__div-offer {
     display: flex;
     margin-left: 16px;
@@ -917,7 +914,8 @@
     transition: opacity 200ms ease-in-out; }
   .div-offer__get-offer {
     margin-right: 15px;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    font-family: "TT Lakes Demi"; }
   .div-offer__icon {
     position: relative;
     top: 21px;
@@ -926,7 +924,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: TT Lakes Medium;
     font-size: 14px;
     line-height: 16px;
     margin: 0;
