@@ -2,7 +2,6 @@
     .main__type-of-devices {
         display: flex;
         flex-direction: column;
-        font-family: TT Lakes Medium;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: -0.2px;
@@ -80,7 +79,6 @@
     }
 
     .main__service-price {
-        font-family: TT Lakes Medium;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: -0.2px;
@@ -213,7 +211,6 @@
         margin: 0;
         margin-left: 16px;
         margin-right: 16px;
-        color: #1B1C21;
     }
 
     .service-price__div-offer {
@@ -231,6 +228,7 @@
     .div-offer__get-offer {
         margin-right: 15px;
         margin-bottom: 0;
+        font-family: $font-demi;
     }
 
     .div-offer__icon {
@@ -243,7 +241,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        font-family: TT Lakes Medium;
         font-size: 14px;
         line-height: 16px;
         margin: 0;

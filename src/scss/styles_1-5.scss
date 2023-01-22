@@ -23,7 +23,6 @@
     }
 
     .text {
-        font-family: TT Lakes Medium;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: -0.2px;
@@ -165,6 +164,10 @@
         flex-wrap: wrap;
     }
 
+    .div-brands__details {
+        font-family: $font-demi;
+    }
+
     .details__hidden-brands-768px {
         display: flex;
         flex-wrap: wrap;
@@ -211,6 +214,9 @@
         content: 'Показать все';
         white-space: nowrap;
         margin-left: 16px;
+        font-family: $font-demi;
+        font-size: 16px;
+        letter-spacing: -0.2px;
     }
 
     .details[open] summary::before {
