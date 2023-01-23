@@ -1,6 +1,3 @@
-$font-medium: 'TT Lakes Medium';
-$font-demi: 'TT Lakes Demi';
-
 @media (min-width: 320px) {
     html {
         box-sizing: border-box;
@@ -15,7 +12,7 @@ $font-demi: 'TT Lakes Demi';
         font-size: 14px;
         line-height: 18px;
         letter-spacing: 0.2px;
-        color: #1B1C21;
+        color: $color-black;
         padding: 0px;
         margin: 0px;
         display: flex;
@@ -31,7 +28,7 @@ $font-demi: 'TT Lakes Demi';
         justify-content: center;
         margin: 0px;
         border-width: 0px 0px 1px;
-        border-color: #D9FFF5;
+        border-color: $color-light-blue;
         border-style: solid;
     }
 
@@ -39,7 +36,7 @@ $font-demi: 'TT Lakes Demi';
         display: flex;
         height: auto;
         flex-direction: column;
-        background-color: #F8F8F8;
+        background-color: $color-main-grey;
         position: relative;
     }
 
@@ -50,11 +47,11 @@ $font-demi: 'TT Lakes Demi';
         width: 40px;
         height: 40px;
         cursor: pointer;
-    }
 
-    .logo:hover {
-        opacity: 60%;
-        transition: opacity 200ms ease-in-out;
+        &:hover {
+            opacity: 60%;
+            transition: opacity 200ms ease-in-out;
+        }
     }
 
     .logo-d {
@@ -87,7 +84,6 @@ $font-demi: 'TT Lakes Demi';
 
     .h2 {
         font-size: 16px;
-        color: #1B1C21;
         line-height: 24px;
         letter-spacing: -0.2px;
         white-space: nowrap; 
@@ -120,7 +116,7 @@ $font-demi: 'TT Lakes Demi';
         font-size: 28px;
         line-height: 40px;
         letter-spacing: -0.6px;
-        font-family: 'TT Lakes Bold';
+        font-family: $font-bold;
     }
 
     .div__stat-rep {
@@ -142,20 +138,20 @@ $font-demi: 'TT Lakes Demi';
     }
 
     .h2-nav {
-        color: #7E7E82;
+        color: $color-blue-grey;
         padding-top: 8px;
         padding-bottom: 8px;
         padding-left: 16.54px;
         padding-right: 9.3px;
         margin: 0px;
         cursor: pointer;
-    }
 
-    .h2-nav:hover {
-        background: #FFFFFF;
-        border: 2px solid #B8FFEC;
-        padding: 6px 7.3px 6px 14.54px;
-        border-radius: 6px;
+        &:hover {
+            background: $color-warm-white;
+            border: 2px solid $color-light-green;
+            padding: 6px 7.3px 6px 14.54px;
+            border-radius: 6px;
+        }
     }
 
     .nav__feedback {
@@ -458,34 +454,3 @@ $font-demi: 'TT Lakes Demi';
         margin-top: 10px;
     }
 }
-
-@font-face {
-    font-family: 'TT Lakes Medium';
-    src: url('../fonts/TTLakes-Medium.eot');
-    src: url('../fonts/TTLakes-Medium.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/TTLakes-Medium.woff') format('woff'),
-    url('../fonts/TTLakes-Medium.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'TT Lakes Demi';
-    src: url('../fonts/TTLakes-DemiBold.eot');
-    src: url('../fonts/TTLakes-DemiBold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/TTLakes-DemiBold.woff') format('woff'),
-    url('../fonts/TTLakes-DemiBold.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    }
-
-@font-face {
-    font-family: 'TT Lakes Bold';
-    src: url('../fonts/TTLakes-Bold.eot');
-    src: url('../fonts/TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/TTLakes-Bold.woff') format('woff'),
-    url('../fonts/TTLakes-Bold.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    }
-

@@ -5,7 +5,6 @@
         letter-spacing: -0.2px;
         margin-left: 16px;
         margin: 0;
-        background-color: #F8F8F8;
         position: relative;
         min-width: 0;
     }
@@ -15,9 +14,9 @@
         align-items: center;
         height: 56px;
         margin: 0;
-        background-image: linear-gradient(to right, #F8F8F8, #FFFFFF);
-        color: #7E7E82;
-        border-top: 1px solid #D9FFF5;
+        background-image: linear-gradient(to right, $color-main-grey, $color-warm-white);
+        color: $color-blue-grey;
+        border-top: 1px solid $color-light-blue;
         padding-left: 16px;
     }
 
@@ -41,12 +40,12 @@
     .div-of-services__swiper-pagination {
         position: absolute;
         transform: translateX(105px) translateY(-233px);
-    }
 
-    .div-of-services__swiper-pagination .swiper-pagination-bullet {
-        width: 12px;
-        height: 12px;
-        background-color: #B5B6BC;
+        .swiper-pagination-bullet {
+            width: 12px;
+            height: 12px;
+            background-color: $color-light-blue-grey;
+        }
     }
 
     .service-btn {
@@ -55,8 +54,8 @@
         width: 260px;
         height: 200px;
         margin-top: 16px;
-        background-color: #FFFFFF;
-        border: 1px solid #EAEAEA;
+        background-color: $color-warm-white;
+        border: 1px solid $color-warm-white-btn-brands;
         border-radius: 6px;
         font-size: 14px;
         line-height: 16px;
@@ -69,7 +68,7 @@
         margin: 0;
         margin-left: 16px;
         margin-top: 16px;
-        color: #7E7E82;
+        color: $color-blue-grey;
     }
 
     .p-text {
@@ -86,8 +85,8 @@
 
     .div__order-btn {
         display: flex;
-        background-color: #FF3E79;
-        color: #FFFFFF;
+        background-color: $color-red-btn;
+        color: $color-warm-white;
         width: 119px;
         height: 32px;
         border-radius: 16px;
@@ -95,11 +94,11 @@
         margin-bottom: 16px;
         margin-top: 16px;
         cursor: pointer;
-    }
-
-    .div__order-btn:hover {
-        opacity: 0.5;
-        transition: opacity 200ms ease-in-out;
+    
+        &:hover {
+            opacity: 0.5;
+            transition: opacity 200ms ease-in-out;
+        }
     }
 
     .test-btn {
@@ -139,11 +138,11 @@
         margin-left: 16px;
         margin-bottom: 52px;
         cursor: pointer;
-    }
 
-    .service-price__div-offer:hover {
-        opacity: 0.5;
-        transition: opacity 200ms ease-in-out; 
+        &:hover {
+            opacity: 0.5;
+            transition: opacity 200ms ease-in-out; 
+        }
     }
 
     .div-offer__get-offer {
@@ -172,7 +171,7 @@
         display: flex;
         font-size: 14px;
         line-height: 16px;
-        color: #7E7E82;
+        color: $color-blue-grey;
         margin-top: 31px;
     }
 
@@ -204,7 +203,7 @@
     .service-price__div-of-services-768px {
         display: flex;
         flex-direction: column;
-        background-color: #FFFFFF;
+        background-color: $color-warm-white;
         border-radius: 6px;
         margin-left: 24px;
         margin-right: 24px;
@@ -217,7 +216,7 @@
         justify-content: space-between;
         align-items: center;
         height: 64px;
-        border-bottom: 1px solid #EAEAEA;
+        border-bottom: 1px solid $color-warm-white-btn-brands;
         margin-left: 16px;
         margin-right: 16px;
     }
@@ -252,18 +251,18 @@
 
     .div__order-btn-768px {
         display: flex;
-        background-color: #FF3E79;
-        color: #FFFFFF;
+        background-color: $color-red-btn;
+        color: $color-warm-white;
         width: 119px;
         height: 32px;
         border-radius: 16px;
         margin-right: 0;
         cursor: pointer;
-    }
 
-    .div__order-btn-768px:hover {
-        opacity: 0.5;
-        transition: opacity 200ms ease-in-out;
+        &:hover {
+            opacity: 0.5;
+            transition: opacity 200ms ease-in-out;
+        }
     }
 
     .service-btn-last {

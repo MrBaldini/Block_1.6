@@ -7,8 +7,7 @@
         flex-direction: column;
         width: 320px;
         height: 234px;
-        background-color: #F8F8F8;
-        border-top: 1px solid #D9FFF5;
+        border-top: 1px solid $color-light-blue;
         min-width: 0;
         position: relative;
     } 
@@ -18,8 +17,8 @@
         align-items: center;
         height: 80px;
         margin: 0;
-        background-image: linear-gradient(to right, #F8F8F8, #FFFFFF);
-        color: #7E7E82;
+        background-image: linear-gradient(to right, $color-main-grey, $color-warm-white);
+        color: $color-blue-grey;
     }
 
     .text {
@@ -48,29 +47,29 @@
     .swiper-pagination {
         position: absolute;
         top: 195px;
-    }
 
-    .swiper-pagination .swiper-pagination-bullet {
-        width: 12px;
-        height: 12px;
-        background-color: #B5B6BC;
+        .swiper-pagination-bullet {
+            width: 12px;
+            height: 12px;
+            background-color: $color-light-blue-grey;
+        }
     }
 
     .button {
         display: flex;
         width: 240px;
         height: 72px;
-        background-color: #FFFFFF;
+        background-color: $color-warm-white;
         align-items: center;
         margin: 0;
-        border: 1px solid #EAEAEA;
+        border: 1px solid $color-warm-white-btn-brands;
         border-radius: 6px;
         cursor: pointer;
-    }
 
-    .button:hover {
-        opacity: 60%;
-        transition: opacity 200ms ease-in-out;
+        &:hover {
+            opacity: 60%;
+            transition: opacity 200ms ease-in-out;
+        }
     }
 
     .logo-btn-brands {
@@ -130,7 +129,7 @@
         position: absolute;
         left: 296px;
         top: 75px;
-        background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+        background: linear-gradient(270deg, $color-main-grey 16.84%, $color-dark-red-fade-gradient 100%);
     }
 }
 
@@ -175,11 +174,33 @@
 
     .details {
         position: relative;
+
+        summary::marker {
+            content: url(../img/icon-more.svg);
+            color: transparent;
+        }
+
+        summary::before {
+            content: 'Показать все';
+            white-space: nowrap;
+            margin-left: 16px;
+            font-family: $font-demi;
+            font-size: 16px;
+            letter-spacing: -0.2px;
+        }
     }
 
     .details[open] {
         animation: sweep .5s ease-in-out;
         z-index: 1;
+
+        summary::marker {
+            content: url(../img/icon-hide.svg);
+        }
+
+        summary::before {
+            content: 'Скрыть';
+        }
     }
 
     @keyframes sweep {
@@ -199,37 +220,15 @@
         top: 115px;
         width: 130px;
         z-index: 1;
-    }
 
-    .details__summary:hover {
-        cursor: pointer;
+        &:hover {
+            cursor: pointer;
+        }
     }
 
     .div-brands__details[open] .details__summary {
         top: 220px;
         right: 610px;
-    }
-
-    .details summary::before {
-        content: 'Показать все';
-        white-space: nowrap;
-        margin-left: 16px;
-        font-family: $font-demi;
-        font-size: 16px;
-        letter-spacing: -0.2px;
-    }
-
-    .details[open] summary::before {
-        content: 'Скрыть';
-    }
-
-    summary::marker {
-        content: url(../img/icon-more.svg);
-        color: transparent;
-    }
-
-    .details[open] summary::marker {
-        content: url(../img/icon-hide.svg);
     }
 
     .button {

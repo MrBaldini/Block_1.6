@@ -4,12 +4,12 @@
         flex-direction: column;
         width: 320px;
         height: 676px;
-        box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2);
+        box-shadow: 16px 0px 52px $color-rgba-dark-blue;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: -0.2px;
         display: none;
-        background-color: #FFFFFF;
+        background-color: $color-warm-white;
         position: absolute;
         left: 0;
         z-index: 1;
@@ -40,7 +40,7 @@
         width: auto;
         height: 86px;
         display: flex;
-        background-color: #FFFFFF;
+        background-color: $color-warm-white;
         justify-content: space-between;
         align-items: center;
     }
@@ -49,6 +49,11 @@
         width: 40px;
         height: 40px;
         cursor: pointer;
+
+        &:hover {
+            opacity: 0.5;
+            transition: opacity 200ms ease-in-out;
+        }
     }
 
     .menu-header__logo-modal-menu {
@@ -59,20 +64,15 @@
         height: 51px;
         margin-right: 75px;
         cursor: pointer;
+
+        &:hover {
+            opacity: 0.5;
+            transition: opacity 200ms ease-in-out;
+        }
     }
 
     .menu-header__logo-status {
         margin-right: 16px;
-    }
-
-    .logo-burger:hover {
-        opacity: 0.5;
-        transition: opacity 200ms ease-in-out;
-    }
-
-    .menu-header__logo-company:hover {
-        opacity: 0.5;
-        transition: opacity 200ms ease-in-out;
     }
 
     .modal-menu__main {
@@ -102,18 +102,18 @@
 
     .h3-services {
         cursor: pointer;
-    }
-
-    .h3-services:hover {
-        opacity: 0.5;
-        transition: opacity 200ms ease-in-out;
+    
+        &:hover {
+            opacity: 0.5;
+            transition: opacity 200ms ease-in-out;
+        }
     }
 
     .main__menu-title {
         margin: 0;
         margin-left: 12px;
         align-self: center;
-        color: #7E7E82;
+        color: $color-blue-grey;
     }
 
     .footer__div-logos {
@@ -135,18 +135,18 @@
         margin: 0;
         margin-top: 16px;
         margin-left: 16px;
-        color: #1B1C21;
+        color: $color-black;
         text-decoration: none;
-    }
-
-    .footer__mail:hover {
-        opacity: 0.5;
-        transition: opacity 200ms ease-in-out;
+    
+        &:hover {
+            opacity: 0.5;
+            transition: opacity 200ms ease-in-out;
+        }
     }
 
     .footer__phone {
         display: block;
-        font-family: TT Lakes Bold;
+        font-family: $font-bold;
         font-size: 24px;
         line-height: 32px;
         letter-spacing: -0.6px;
@@ -167,11 +167,11 @@
         margin-bottom: 32px;
         letter-spacing: -0.2px;
         cursor: pointer;
-    }
 
-    .language:hover {
-        opacity: 0.5;
-        transition: opacity 200ms ease-in-out;
+        &:hover {
+            opacity: 0.5;
+            transition: opacity 200ms ease-in-out;
+        }
     }
 
     .languages__RU {
@@ -247,7 +247,7 @@
         position: static;
         height: auto;
         width: 305px;
-        box-shadow: 0px 0px 0px rgba(14, 24, 80, 0.2);
+        box-shadow: 0px 0px 0px $color-rgba-dark-blue;
     }
 
     .menu-header__logo-modal-menu {
@@ -288,7 +288,7 @@
 
     .main__menu-service-desktop {
         margin-left: 20px;
-        color: #7E7E82;
+        color: $color-blue-grey;
     }
 
     .main__logo-highlight {

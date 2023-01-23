@@ -7,7 +7,6 @@
         letter-spacing: -0.2px;
         margin-left: 16px;
         margin: 0;
-        background-color: #F8F8F8;
         position: relative;
         min-width: 0;
     }
@@ -17,9 +16,9 @@
         align-items: center;
         height: 80px;
         margin: 0;
-        background-image: linear-gradient(to right, #F8F8F8, #FFFFFF);
-        color: #7E7E82;
-        border-top: 1px solid #D9FFF5;
+        background-image: linear-gradient(to right, $color-main-grey, $color-warm-white);
+        color: $color-blue-grey;
+        border-top: 1px solid $color-light-blue;
         padding-left: 16px;
     }
 
@@ -34,12 +33,12 @@
     .type-of-devices___swiper-pagination {
         position: absolute;
         transform: translateX(70px) translateY(-5px);
-    }
 
-    .type-of-devices___swiper-pagination .swiper-pagination-bullet {
-        width: 12px;
-        height: 12px;
-        background-color: #B5B6BC;
+        .swiper-pagination-bullet {
+            width: 12px;
+            height: 12px;
+            background-color: $color-light-blue-grey;
+        }
     }
 
     .type-of-devices__div-devices-768px {
@@ -52,15 +51,15 @@
         width: 240px;
         height: 160px;
         margin-top: 16px;
-        background-color: #FFFFFF;
-        border: 1px solid #EAEAEA;
+        background-color: $color-warm-white;
+        border: 1px solid $color-warm-white-btn-brands;
         border-radius: 6px;
         cursor: pointer;
-    }
 
-    .devices-btn:hover {
-        opacity: 0.5;
-        transition: opacity 200ms ease-in-out;  
+        &:hover {
+            opacity: 0.5;
+            transition: opacity 200ms ease-in-out;  
+        }
     }
 
     .divices-text-btn {
