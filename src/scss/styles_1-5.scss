@@ -10,116 +10,116 @@
         border-top: 1px solid $color-light-blue;
         min-width: 0;
         position: relative;
-    } 
+
+        .section-brands__title {
+            display: flex;
+            align-items: center;
+            height: 80px;
+            margin: 0;
+            background-image: linear-gradient(to right, $color-main-grey, $color-warm-white);
+            color: $color-blue-grey;
+        }
+
+        .text {
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.2px;
+            margin-left: 16px;
+        }
+
+        .section-brands__div-brands {
+            display: flex;
+            margin-top: 16px;
+            height: 87px;
+            overflow: hidden;
+            width: 240px;
+
+            .swiper-wrapper {
+                display: flex;
+            }
+        }
+
+        .button {
+            display: flex;
+            width: 240px;
+            height: 72px;
+            background-color: $color-warm-white;
+            align-items: center;
+            margin: 0;
+            border: 1px solid $color-warm-white-btn-brands;
+            border-radius: 6px;
+            cursor: pointer;
     
-    .section-brands__title {
-        display: flex;
-        align-items: center;
-        height: 80px;
-        margin: 0;
-        background-image: linear-gradient(to right, $color-main-grey, $color-warm-white);
-        color: $color-blue-grey;
-    }
+            &:hover {
+                opacity: 60%;
+                transition: opacity 200ms ease-in-out;
+            }
 
-    .text {
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: -0.2px;
-        margin-left: 16px;
-    }
+            .logo-btn-brands {
+                margin-left: 16px;
+            }
+        
+            .go-to {
+                width: 40px;
+                height: 40px;
+                margin-right: 16px;
+            }
 
-    .section-brands__div-brands-768px {
-        display: none;
-    }
-
-    .section-brands__div-brands {
-        display: flex;
-        margin-top: 16px;
-        height: 87px;
-        overflow: hidden;
-        width: 240px;
-    }
-
-    .swiper-wrapper {
-        display: flex;
-    }
-
-    .swiper-pagination {
-        position: absolute;
-        top: 195px;
-
-        .swiper-pagination-bullet {
-            width: 12px;
-            height: 12px;
-            background-color: $color-light-blue-grey;
+            .lenovo-btn__logo-lenovo {
+                margin-right: 60px;
+            }
+        
+            .samsung-btn__logo-samsung {
+                margin-right: 52px;
+            }
+        
+            .apple-btn__logo-apple {
+                margin-right: 124px;
+            }
+        
+            .viewsonic-btn__logo-viewsonic {
+                margin-right: 42px;
+            }
+        
+            .bosh-btn__logo-bosh {
+                margin-right: 40px;
+            }
+        
+            .hp-btn__logo-hp {
+                margin-right: 122px;
+            }
+        
+            .acer-btn__logo-acer {
+                margin-right: 74px;
+            }
+        
+            .sony-btn__logo-sony {
+                margin-right: 42px;
+            }        
         }
-    }
 
-    .button {
-        display: flex;
-        width: 240px;
-        height: 72px;
-        background-color: $color-warm-white;
-        align-items: center;
-        margin: 0;
-        border: 1px solid $color-warm-white-btn-brands;
-        border-radius: 6px;
-        cursor: pointer;
-
-        &:hover {
-            opacity: 60%;
-            transition: opacity 200ms ease-in-out;
+        .swiper-pagination {
+            position: absolute;
+            top: 195px;
+    
+            .swiper-pagination-bullet {
+                width: 12px;
+                height: 12px;
+                background-color: $color-light-blue-grey;
+            }
         }
-    }
 
-    .logo-btn-brands {
-        margin-left: 16px;
-    }
+        .section-brands__div-brands-768px {
+            display: none;
 
-    .go-to {
-        width: 40px;
-        height: 40px;
-        margin-right: 16px;
-    }
+            .hidden-brands-1119px__viewsonic-btn-4 {
+                display: none;
+            }
 
-    .hidden-brands-1119px__viewsonic-btn-4 {
-        display: none;
-    }
-
-    .hidden-brands-1119px__sony-btn-8 {
-        display: none;
-    }
-
-    .lenovo-btn__logo-lenovo {
-        margin-right: 60px;
-    }
-
-    .samsung-btn__logo-samsung {
-        margin-right: 52px;
-    }
-
-    .apple-btn__logo-apple {
-        margin-right: 124px;
-    }
-
-    .viewsonic-btn__logo-viewsonic {
-        margin-right: 42px;
-    }
-
-    .bosh-btn__logo-bosh {
-        margin-right: 40px;
-    }
-
-    .hp-btn__logo-hp {
-        margin-right: 122px;
-    }
-
-    .acer-btn__logo-acer {
-        margin-right: 74px;
-    }
-
-    .sony-btn__logo-sony {
-        margin-right: 42px;
+            .hidden-brands-1119px__sony-btn-8 {
+                display: none;
+            }
+        }
     }
 
     .main__nav-fade-out {
@@ -138,38 +138,84 @@
         width: 768px;
         height: auto;
         margin-top: 30px;
-    }
 
-    .section-brands__title {
-        height: 56px;
-    }
+        .section-brands__title {
+            height: 56px;
+        }
 
-    .text {
-        margin-left: 24px;
-    }
+        .text {
+            margin-left: 24px;
+        }
 
-    .section-brands__div-brands {
-        display: none;
-    }
+        .section-brands__div-brands {
+            display: none;
+        }
 
-    .swiper-pagination {
-        display: none;
-    }
+        .swiper-pagination {
+            display: none;
+        }
 
-    .section-brands__div-brands-768px {
-        display: flex;
-        margin-top: 8px;
-        height: auto;
-        flex-wrap: wrap;
-    }
+        .section-brands__div-brands-768px {
+            display: flex;
+            margin-top: 8px;
+            height: auto;
+            flex-wrap: wrap;
 
-    .div-brands__details {
-        font-family: $font-demi;
-    }
+            .div-brands__details {
+                font-family: $font-demi;
 
-    .details__hidden-brands-768px {
-        display: flex;
-        flex-wrap: wrap;
+                .details__hidden-brands-768px {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+            }
+            
+            .div-brands__details[open] .details__summary {
+                top: 220px;
+                right: 610px;
+            }
+
+            .button {
+                width: 224px;
+                margin-left: 22px;
+                margin-top: 16px;
+        
+                .lenovo-btn__logo-lenovo {
+                    margin-right: 44px;
+                }
+            
+                .samsung-btn__logo-samsung {
+                    margin-right: 36px;
+                }
+            
+                .apple-btn__logo-apple {
+                    margin-right: 108px;
+                }
+            
+                .viewsonic-btn__logo-viewsonic {
+                    margin-right: 26px;
+                    margin-left: 14px;
+                }
+            
+                .bosh-btn__logo-bosh {
+                    margin-right: 24px;
+                }
+            
+                .hp-btn__logo-hp {
+                    margin-right: 108px;
+                    margin-left: 10px;
+                }
+            
+                .acer-btn__logo-acer {
+                    margin-right: 58px;
+                }
+            
+                .sony-btn__logo-sony {
+                    margin-right: 26px;
+                    margin-left: 14px;
+                }
+            }        
+        }
     }
 
     .details {
@@ -226,52 +272,6 @@
         }
     }
 
-    .div-brands__details[open] .details__summary {
-        top: 220px;
-        right: 610px;
-    }
-
-    .button {
-        width: 224px;
-        margin-left: 22px;
-        margin-top: 16px;
-    }
-
-    .lenovo-btn__logo-lenovo {
-        margin-right: 44px;
-    }
-
-    .samsung-btn__logo-samsung {
-        margin-right: 36px;
-    }
-
-    .apple-btn__logo-apple {
-        margin-right: 108px;
-    }
-
-    .viewsonic-btn__logo-viewsonic {
-        margin-right: 26px;
-        margin-left: 14px;
-    }
-
-    .bosh-btn__logo-bosh {
-        margin-right: 24px;
-    }
-
-    .hp-btn__logo-hp {
-        margin-right: 108px;
-        margin-left: 10px;
-    }
-
-    .acer-btn__logo-acer {
-        margin-right: 58px;
-    }
-
-    .sony-btn__logo-sony {
-        margin-right: 26px;
-        margin-left: 14px;
-    }
-
     .main__nav-fade-out {
         width: 24px;
         height: 81px;
@@ -284,81 +284,84 @@
     .main__section-brands {
         width: 1120px;
         margin-top: 40px;
-    }
 
-    .text {
-        margin-left: 32px;
-    }  
-    
-    .section-brands__div-brands-768px {
-        margin-bottom: 60px;
-    }
+        .text {
+            margin-left: 32px;
+        }  
 
-    .details__summary {
-        right: 910px;
-        top: 120px;
-        width: 130px;
-    }
+        .section-brands__div-brands-768px {
+            margin-bottom: 60px;
 
-    .div-brands__details[open] .details__summary {
-        top: 140px;
-        right: 640px;
-    }
+            .button {
+                width: 240px;
+                margin-left: 30px;
+                margin-top: 16px;
+            
+                .lenovo-btn__logo-lenovo {
+                    margin-right: 60px;
+                }
+            
+                .samsung-btn__logo-samsung {
+                    margin-right: 52px;
+                }
+            
+                .apple-btn__logo-apple {
+                    margin-right: 124px;
+                }
+            
+                .viewsonic-btn__logo-viewsonic {
+                    margin-right: 42px;
+                }
+            
+                .bosh-btn__logo-bosh {
+                    margin-right: 40px;
+                }
+            
+                .hp-btn__logo-hp {
+                    margin-right: 122px;
+                    margin-left: 10px;
+                }
+            
+                .acer-btn__logo-acer {
+                    margin-right: 74px;
+                }
+            
+                .sony-btn__logo-sony {
+                    margin-right: 42px;
+                    margin-left: 14px;
+                }
+            }
 
-    .button {
-        width: 240px;
-        margin-left: 30px;
-        margin-top: 16px;
-    }
+            .hidden-brands-1119px__viewsonic-btn-4 {
+                display: flex;
+            }
+        
+            .hidden-brands-1119px__sony-btn-8 {
+                display: flex;
+            }
+        
+            .hidden-brands-768px__viewsonic-btn-4 {
+                display: none;
+            }
+        
+            .hidden-brands-768px__sony-btn-8 {
+                display: none;
+            }
 
-    .hidden-brands-1119px__viewsonic-btn-4 {
-        display: flex;
-    }
+            .div-brands__details {
 
-    .hidden-brands-1119px__sony-btn-8 {
-        display: flex;
-    }
+                .details__summary {
+                    right: 910px;
+                    top: 120px;
+                    width: 130px;
+                }
+            }
 
-    .hidden-brands-768px__viewsonic-btn-4 {
-        display: none;
-    }
-
-    .hidden-brands-768px__sony-btn-8 {
-        display: none;
-    }
-
-    .lenovo-btn__logo-lenovo {
-        margin-right: 60px;
-    }
-
-    .samsung-btn__logo-samsung {
-        margin-right: 52px;
-    }
-
-    .apple-btn__logo-apple {
-        margin-right: 124px;
-    }
-
-    .viewsonic-btn__logo-viewsonic {
-        margin-right: 42px;
-    }
-
-    .bosh-btn__logo-bosh {
-        margin-right: 40px;
-    }
-
-    .hp-btn__logo-hp {
-        margin-right: 122px;
-        margin-left: 10px;
-    }
-
-    .acer-btn__logo-acer {
-        margin-right: 74px;
-    }
-
-    .sony-btn__logo-sony {
-        margin-right: 42px;
-        margin-left: 14px;
+            .div-brands__details[open] .details__summary {
+                top: 140px;
+                right: 640px;
+            }
+        }
     }
 
     .main__nav-fade-out {
