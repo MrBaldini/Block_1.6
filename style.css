@@ -1,4 +1,25 @@
 @charset "UTF-8";
+@font-face {
+  font-family: 'TT Lakes Medium';
+  src: url(./fonts/TTLakes-Medium.eot);
+  src: url(./fonts/TTLakes-Medium.eot?#iefix) format("embedded-opentype"), url(./fonts/TTLakes-Medium.woff) format("woff"), url(./fonts/TTLakes-Medium.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'TT Lakes Demi';
+  src: url(./fonts/TTLakes-DemiBold.eot);
+  src: url(./fonts/TTLakes-DemiBold.eot?#iefix) format("embedded-opentype"), url(./fonts/TTLakes-DemiBold.woff) format("woff"), url(./fonts/TTLakes-DemiBold.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'TT Lakes Bold';
+  src: url(./fonts/TTLakes-Bold.eot);
+  src: url(./fonts/TTLakes-Bold.eot?#iefix) format("embedded-opentype"), url(./fonts/TTLakes-Bold.woff) format("woff"), url(./fonts/TTLakes-Bold.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
 @media (min-width: 320px) {
   html {
     box-sizing: border-box; }
@@ -38,9 +59,9 @@
     width: 40px;
     height: 40px;
     cursor: pointer; }
-  .logo:hover {
-    opacity: 60%;
-    transition: opacity 200ms ease-in-out; }
+    .logo:hover {
+      opacity: 60%;
+      transition: opacity 200ms ease-in-out; }
   .logo-d {
     width: 2px;
     height: 32px;
@@ -59,7 +80,6 @@
     display: none; }
   .h2 {
     font-size: 16px;
-    color: #1B1C21;
     line-height: 24px;
     letter-spacing: -0.2px;
     white-space: nowrap;
@@ -84,7 +104,7 @@
     font-size: 28px;
     line-height: 40px;
     letter-spacing: -0.6px;
-    font-family: 'TT Lakes Bold'; }
+    font-family: "TT Lakes Bold"; }
   .div__stat-rep {
     display: none; }
   .order-and-check-btn {
@@ -105,11 +125,11 @@
     padding-right: 9.3px;
     margin: 0px;
     cursor: pointer; }
-  .h2-nav:hover {
-    background: #FFFFFF;
-    border: 2px solid #B8FFEC;
-    padding: 6px 7.3px 6px 14.54px;
-    border-radius: 6px; }
+    .h2-nav:hover {
+      background: #FFFFFF;
+      border: 2px solid #B8FFEC;
+      padding: 6px 7.3px 6px 14.54px;
+      border-radius: 6px; }
   .nav__feedback {
     margin-right: 15px; }
   .nav__brands {
@@ -295,27 +315,6 @@
     margin: 0px;
     margin-top: 10px; } }
 
-@font-face {
-  font-family: 'TT Lakes Medium';
-  src: url(./fonts/TTLakes-Medium.eot);
-  src: url(./fonts/TTLakes-Medium.eot?#iefix) format("embedded-opentype"), url(./fonts/TTLakes-Medium.woff) format("woff"), url(./fonts/TTLakes-Medium.ttf) format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'TT Lakes Demi';
-  src: url(./fonts/TTLakes-DemiBold.eot);
-  src: url(./fonts/TTLakes-DemiBold.eot?#iefix) format("embedded-opentype"), url(./fonts/TTLakes-DemiBold.woff) format("woff"), url(./fonts/TTLakes-DemiBold.ttf) format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'TT Lakes Bold';
-  src: url(./fonts/TTLakes-Bold.eot);
-  src: url(./fonts/TTLakes-Bold.eot?#iefix) format("embedded-opentype"), url(./fonts/TTLakes-Bold.woff) format("woff"), url(./fonts/TTLakes-Bold.ttf) format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-
 @media (min-width: 320px) {
   .body__modal-menu {
     display: flex;
@@ -355,20 +354,20 @@
     width: 40px;
     height: 40px;
     cursor: pointer; }
+    .logo-burger:hover {
+      opacity: 0.5;
+      transition: opacity 200ms ease-in-out; }
   .menu-header__logo-modal-menu {
     margin-left: 16px; }
   .menu-header__logo-company {
     height: 51px;
     margin-right: 75px;
     cursor: pointer; }
+    .menu-header__logo-company:hover {
+      opacity: 0.5;
+      transition: opacity 200ms ease-in-out; }
   .menu-header__logo-status {
     margin-right: 16px; }
-  .logo-burger:hover {
-    opacity: 0.5;
-    transition: opacity 200ms ease-in-out; }
-  .menu-header__logo-company:hover {
-    opacity: 0.5;
-    transition: opacity 200ms ease-in-out; }
   .modal-menu__main {
     margin-bottom: 32px; }
   .main__menu-repair {
@@ -385,9 +384,9 @@
     font-size: 16px; }
   .h3-services {
     cursor: pointer; }
-  .h3-services:hover {
-    opacity: 0.5;
-    transition: opacity 200ms ease-in-out; }
+    .h3-services:hover {
+      opacity: 0.5;
+      transition: opacity 200ms ease-in-out; }
   .main__menu-title {
     margin: 0;
     margin-left: 12px;
@@ -408,12 +407,12 @@
     margin-left: 16px;
     color: #1B1C21;
     text-decoration: none; }
-  .footer__mail:hover {
-    opacity: 0.5;
-    transition: opacity 200ms ease-in-out; }
+    .footer__mail:hover {
+      opacity: 0.5;
+      transition: opacity 200ms ease-in-out; }
   .footer__phone {
     display: block;
-    font-family: TT Lakes Bold;
+    font-family: "TT Lakes Bold";
     font-size: 24px;
     line-height: 32px;
     letter-spacing: -0.6px;
@@ -430,9 +429,9 @@
     margin-bottom: 32px;
     letter-spacing: -0.2px;
     cursor: pointer; }
-  .language:hover {
-    opacity: 0.5;
-    transition: opacity 200ms ease-in-out; }
+    .language:hover {
+      opacity: 0.5;
+      transition: opacity 200ms ease-in-out; }
   .languages__RU {
     margin-left: 16px; } }
 
@@ -525,7 +524,6 @@
     flex-direction: column;
     width: 320px;
     height: 234px;
-    background-color: #F8F8F8;
     border-top: 1px solid #D9FFF5;
     min-width: 0;
     position: relative; }
@@ -554,10 +552,10 @@
   .swiper-pagination {
     position: absolute;
     top: 195px; }
-  .swiper-pagination .swiper-pagination-bullet {
-    width: 12px;
-    height: 12px;
-    background-color: #B5B6BC; }
+    .swiper-pagination .swiper-pagination-bullet {
+      width: 12px;
+      height: 12px;
+      background-color: #B5B6BC; }
   .button {
     display: flex;
     width: 240px;
@@ -568,9 +566,9 @@
     border: 1px solid #EAEAEA;
     border-radius: 6px;
     cursor: pointer; }
-  .button:hover {
-    opacity: 60%;
-    transition: opacity 200ms ease-in-out; }
+    .button:hover {
+      opacity: 60%;
+      transition: opacity 200ms ease-in-out; }
   .logo-btn-brands {
     margin-left: 16px; }
   .go-to {
@@ -631,9 +629,23 @@
     flex-wrap: wrap; }
   .details {
     position: relative; }
+    .details summary::marker {
+      content: url(./static/icon-more.svg);
+      color: transparent; }
+    .details summary::before {
+      content: 'Показать все';
+      white-space: nowrap;
+      margin-left: 16px;
+      font-family: "TT Lakes Demi";
+      font-size: 16px;
+      letter-spacing: -0.2px; }
   .details[open] {
     animation: sweep .5s ease-in-out;
     z-index: 1; }
+    .details[open] summary::marker {
+      content: url(./static/icon-hide.svg); }
+    .details[open] summary::before {
+      content: 'Скрыть'; }
   @keyframes sweep {
     from {
       opacity: 0;
@@ -647,25 +659,11 @@
     top: 115px;
     width: 130px;
     z-index: 1; }
-  .details__summary:hover {
-    cursor: pointer; }
+    .details__summary:hover {
+      cursor: pointer; }
   .div-brands__details[open] .details__summary {
     top: 220px;
     right: 610px; }
-  .details summary::before {
-    content: 'Показать все';
-    white-space: nowrap;
-    margin-left: 16px;
-    font-family: "TT Lakes Demi";
-    font-size: 16px;
-    letter-spacing: -0.2px; }
-  .details[open] summary::before {
-    content: 'Скрыть'; }
-  summary::marker {
-    content: url(./static/icon-more.svg);
-    color: transparent; }
-  .details[open] summary::marker {
-    content: url(./static/icon-hide.svg); }
   .button {
     width: 224px;
     margin-left: 22px;
@@ -752,7 +750,6 @@
     letter-spacing: -0.2px;
     margin-left: 16px;
     margin: 0;
-    background-color: #F8F8F8;
     position: relative;
     min-width: 0; }
   .type-of-devices__title {
@@ -773,10 +770,10 @@
   .type-of-devices___swiper-pagination {
     position: absolute;
     transform: translateX(70px) translateY(-5px); }
-  .type-of-devices___swiper-pagination .swiper-pagination-bullet {
-    width: 12px;
-    height: 12px;
-    background-color: #B5B6BC; }
+    .type-of-devices___swiper-pagination .swiper-pagination-bullet {
+      width: 12px;
+      height: 12px;
+      background-color: #B5B6BC; }
   .type-of-devices__div-devices-768px {
     display: none; }
   .devices-btn {
@@ -789,9 +786,9 @@
     border: 1px solid #EAEAEA;
     border-radius: 6px;
     cursor: pointer; }
-  .devices-btn:hover {
-    opacity: 0.5;
-    transition: opacity 200ms ease-in-out; }
+    .devices-btn:hover {
+      opacity: 0.5;
+      transition: opacity 200ms ease-in-out; }
   .divices-text-btn {
     margin: 0;
     margin-top: 16px;
@@ -862,7 +859,6 @@
     letter-spacing: -0.2px;
     margin-left: 16px;
     margin: 0;
-    background-color: #F8F8F8;
     position: relative;
     min-width: 0; }
   .service-price__title {
@@ -888,10 +884,10 @@
   .div-of-services__swiper-pagination {
     position: absolute;
     transform: translateX(105px) translateY(-233px); }
-  .div-of-services__swiper-pagination .swiper-pagination-bullet {
-    width: 12px;
-    height: 12px;
-    background-color: #B5B6BC; }
+    .div-of-services__swiper-pagination .swiper-pagination-bullet {
+      width: 12px;
+      height: 12px;
+      background-color: #B5B6BC; }
   .service-btn {
     display: flex;
     flex-direction: column;
@@ -930,9 +926,9 @@
     margin-bottom: 16px;
     margin-top: 16px;
     cursor: pointer; }
-  .div__order-btn:hover {
-    opacity: 0.5;
-    transition: opacity 200ms ease-in-out; }
+    .div__order-btn:hover {
+      opacity: 0.5;
+      transition: opacity 200ms ease-in-out; }
   .test-btn {
     margin-top: 0; }
   .order-btn__text {
@@ -962,9 +958,9 @@
     margin-left: 16px;
     margin-bottom: 52px;
     cursor: pointer; }
-  .service-price__div-offer:hover {
-    opacity: 0.5;
-    transition: opacity 200ms ease-in-out; }
+    .service-price__div-offer:hover {
+      opacity: 0.5;
+      transition: opacity 200ms ease-in-out; }
   .div-offer__get-offer {
     margin-right: 15px;
     margin-bottom: 0;
@@ -1038,9 +1034,9 @@
     border-radius: 16px;
     margin-right: 0;
     cursor: pointer; }
-  .div__order-btn-768px:hover {
-    opacity: 0.5;
-    transition: opacity 200ms ease-in-out; }
+    .div__order-btn-768px:hover {
+      opacity: 0.5;
+      transition: opacity 200ms ease-in-out; }
   .service-btn-last {
     border: 0; }
   .service-price__info {
@@ -1088,67 +1084,66 @@
     font-size: 14px;
     line-height: 16px;
     margin: 0;
-    background-color: #F8F8F8;
     color: #7E7E82;
     border-top: 1px solid #D9FFF5; }
-  .site-info__div-768px {
-    display: none; }
-  .site-info__text-1 {
-    margin-top: 16px;
-    margin-bottom: 0; }
-  .site-info__text-2 {
-    margin: 0px; }
-  .site-info__text-3 {
-    margin-top: 16px;
-    margin-bottom: 0; }
-  .site-info__text-4 {
-    margin: 0;
-    margin-top: 16px; }
-  .site-info__text-5 {
-    margin: 0;
-    margin-bottom: 19px; }
-  .site-info__text-4-768px {
-    display: none; } }
+    .main__site-info .site-info__div-768px {
+      display: none; }
+    .main__site-info .site-info__text-1 {
+      margin-top: 16px;
+      margin-bottom: 0; }
+    .main__site-info .site-info__text-2 {
+      margin: 0px; }
+    .main__site-info .site-info__text-3 {
+      margin-top: 16px;
+      margin-bottom: 0; }
+    .main__site-info .site-info__text-4 {
+      margin: 0;
+      margin-top: 16px; }
+    .main__site-info .site-info__text-5 {
+      margin: 0;
+      margin-bottom: 19px; }
+    .main__site-info .site-info__text-4-768px {
+      display: none; } }
 
 @media (min-width: 768px) {
   .main__site-info {
     flex-direction: row;
     align-items: flex-start; }
-  .site-info__div-768px {
-    display: block;
-    margin-top: 32px;
-    margin-left: 24px; }
-  .div-768px__text-1 {
-    margin: 0; }
-  .div-768px__text-2 {
-    margin: 0; }
-  .site-info__text-1 {
-    display: none; }
-  .site-info__text-2 {
-    display: none; }
-  .site-info__text-3 {
-    margin: 0;
-    margin-top: 32px;
-    margin-left: 35px;
-    margin-right: 40px; }
-  .site-info__text-4 {
-    display: none; }
-  .site-info__text-5 {
-    display: none; }
-  .site-info__text-4-768px {
-    display: block;
-    width: 213px;
-    text-align: end;
-    margin-top: 32px;
-    margin-bottom: 25px; } }
+    .main__site-info .site-info__div-768px {
+      display: block;
+      margin-top: 32px;
+      margin-left: 24px; }
+      .main__site-info .site-info__div-768px .div-768px__text-1 {
+        margin: 0; }
+      .main__site-info .site-info__div-768px .div-768px__text-2 {
+        margin: 0; }
+    .main__site-info .site-info__text-1 {
+      display: none; }
+    .main__site-info .site-info__text-2 {
+      display: none; }
+    .main__site-info .site-info__text-3 {
+      margin: 0;
+      margin-top: 32px;
+      margin-left: 35px;
+      margin-right: 40px; }
+    .main__site-info .site-info__text-4 {
+      display: none; }
+    .main__site-info .site-info__text-5 {
+      display: none; }
+    .main__site-info .site-info__text-4-768px {
+      display: block;
+      width: 213px;
+      text-align: end;
+      margin-top: 32px;
+      margin-bottom: 25px; } }
 
 @media (min-width: 1366px) {
-  .site-info__div-768px {
+  .main__site-info .site-info__div-768px {
     margin-left: 31px; }
-  .site-info__text-3 {
+  .main__site-info .site-info__text-3 {
     margin-left: 145px;
     margin-right: 149px; }
-  .site-info__text-4-768px {
+  .main__site-info .site-info__text-4-768px {
     width: 330px;
     margin-bottom: 21px; } }
 
@@ -1177,9 +1172,9 @@
     top: 24px;
     left: 16px;
     cursor: pointer; }
-  .modal-logo-close:hover {
-    opacity: 0.5;
-    transition: opacity 200ms ease-in-out; }
+    .modal-logo-close:hover {
+      opacity: 0.5;
+      transition: opacity 200ms ease-in-out; }
   .modal-highlight {
     position: relative;
     top: 105px;
@@ -1196,7 +1191,7 @@
     display: flex;
     flex-direction: column; }
   .input-form {
-    font-family: 'TT Lakes Medium';
+    font-family: "TT Lakes Medium";
     font-size: 16px;
     line-height: 24px;
     border-radius: 8px;
@@ -1247,9 +1242,9 @@
     margin-top: 19px;
     margin-left: 168px;
     cursor: pointer; }
-  .modal-button-send:hover {
-    opacity: 0.5;
-    transition: opacity 200ms ease-in-out; }
+    .modal-button-send:hover {
+      opacity: 0.5;
+      transition: opacity 200ms ease-in-out; }
   .button-send__text-send {
     margin: 0;
     align-self: center; }
